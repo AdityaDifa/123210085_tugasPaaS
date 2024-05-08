@@ -8,7 +8,7 @@ const nilai = {
 }
 
 app.get('/',(req,res)=> {
-    res.json(niai);
+    res.json(nilai);
 })
 
 const PORT = process.env.PORT || 8080;
