@@ -8,7 +8,7 @@ const nilai = {
 }
 
 app.get('/',(req,res)=> {
-    res.json(profile);
+    res.json(niai);
 })
 
 const PORT = process.env.PORT || 8080;
